@@ -3498,20 +3498,21 @@ body.is-preload #header.alt .logo {
 
 .sponsors {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 14em);
+	grid-template-columns: repeat(auto-fill, 18em);
 	grid-gap: 10px;
-	color: #444;
+	align-items: center;
 }
 
 .imagen-sponsor {
-	color: #fff;
 	border-radius: 5px;
 	padding: 20px;
 	font-size: 150%;
 }
 
 .imagen-sponsor>* {
-	vertical-align: -webkit-baseline-middle;
+	vertical-align: middle;
+	text-align: center;
+	height: inherit;
 	max-width: 100%;
 }
 
