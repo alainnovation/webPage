@@ -3498,7 +3498,7 @@ body.is-preload #header.alt .logo {
 
 .sponsors {
 	display: grid;
-	grid-template-columns: 300px 200px 100px;
+	grid-template-columns: repeat(auto-fill, 14em);
 	grid-gap: 10px;
 	color: #444;
 }
@@ -3511,8 +3511,8 @@ body.is-preload #header.alt .logo {
 }
 
 .imagen-sponsor>* {
-	max-width: 100%;
 	vertical-align: -webkit-baseline-middle;
+	max-width: 100%;
 }
 
 /* Wrapper */
