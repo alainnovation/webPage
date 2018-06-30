@@ -2641,6 +2641,71 @@ table.alt tbody tr td {
 	}
 }
 
+/* 2Columnas */
+
+.DosColumnas {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-moz-justify-content: justify;
+	-webkit-justify-content: justify;
+	-ms-justify-content: justify;
+	justify-content: justify;
+	text-align: justify;
+	width: calc(100% + 2em);
+	margin: 0 0 3em -2em;
+	padding: 0;
+	list-style: none;
+}
+
+.DosColumnas li {
+	width: calc(50% - 2em);
+	margin-left: 2em;
+	margin-top: 3em;
+	padding: 0;
+	text-align: justify;
+}
+
+.DosColumnas li:nth-child(1),
+.DosColumnas li:nth-child(2),
+.DosColumnas li:nth-child(3) {
+	margin-top: 0;
+}
+
+.DosColumnas li> :last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 980px) {
+	.DosColumnas li {
+		width: calc(50% - 2em);
+	}
+	.DosColumnas li:nth-child(3) {
+		margin-top: 3em;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.DosColumnas {
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	.DosColumnas li {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 2em;
+	}
+	.DosColumnas li:nth-child(2),
+	.DosColumnas li:nth-child(3) {
+		margin-top: 2em;
+	}
+}
+
 /* Statistics */
 
 .statistics {
