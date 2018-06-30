@@ -3496,6 +3496,28 @@ body.is-preload #header.alt .logo {
 
 /* Sponsors */
 
+.colaboraciones {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 17em);
+	grid-gap: 10px;
+	align-items: center;
+}
+
+.colaborador {
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+}
+
+.colaboracionImagen > * {
+	vertical-align: middle;
+	text-align: center;
+	height: inherit;
+	width: 100%;
+}
+
+/* Colaboraciones */
+
 .sponsors {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, 18em);
