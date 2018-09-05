@@ -1,0 +1,13 @@
+{
+  "short_name": "ALA Innovation",
+  "name": "ALA Innovation",
+  "icons": [
+    {
+      "src": "/images/logoALA.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+  ],
+  "start_url": "index.html",
+  "theme_color": "#935d8c"
+}
