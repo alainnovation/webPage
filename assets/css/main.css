@@ -187,10 +187,10 @@ html {
 }
 
 body {
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 160, 128, 0.68) 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 160, 128, 0.68) 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 160, 128, 0.68) 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 160, 128, 0.68) 85%);
 }
 }
 
