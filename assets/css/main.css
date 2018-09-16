@@ -187,11 +187,11 @@ html {
 }
 
 body {
-	background-color: #935d8c;
-	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+	background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
+	background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
+	background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
+	background-image: url("images/overlay.png"), linear-gradient(45deg, rgba(0, 62, 221, 0.63) 15%, rgba(0, 195, 155, 0.75) 85%);
+}
 }
 
 body.is-preload *,
@@ -210,7 +210,6 @@ body.is-preload *:after {
 /* Type */
 
 body {
-	background-color: #935d8c;
 	color: rgba(255, 255, 255, 0.65);
 }
 
